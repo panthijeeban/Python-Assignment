@@ -7,3 +7,8 @@ There were few non-DNA characters (other than ATGC), I have written a code into 
 
 If you need any information from this project, you can write me at jeeban_panthi@uri.edu
 
+To run the script:
+python scrip_name data_file
+
+To check the outputs: Go to the output folder, there are two folder into it: one is for the data outputs and the other is for the graphs. 
+
