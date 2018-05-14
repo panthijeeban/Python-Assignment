@@ -1,16 +1,16 @@
 #!/user/bin/env python3
 
-from index import count_kmers
+from python_script_Jeeban import count_kmers
 import pytest
 
 #avoid repetition by loading data in advance 
 @pytest.fixture 
 
 def seq():	
-	seq = 'AGGATGAATGG'
+	seq = 'ATTTGGATT'
 	return seq
 
-#test k = 2 produces 16 kmers 
+#test k = 6 produces 4 kmers 
 def test_count_kmers(seq):
-	counts = count_kmers(seq, 2)
-	assert len(counts) == 6 
+	counts = count_kmers(seq, 6)
+	assert len(counts) == 4 
