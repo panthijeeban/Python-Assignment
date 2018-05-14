@@ -9,6 +9,7 @@ If you need any information from this project, you can write me at jeeban_panthi
 
 To run the script:
 python scrip_name data_file
+
 For my case it is: python python_script_Jeeban.py jeeban.fasta
 This works only for the .fasta file. You can change the code to work with other format of data. 
 
